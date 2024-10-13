@@ -1,2 +1,6 @@
+
 # AySO-Parcial1-FranciscoLettieri
-Parcial 1 AySO
+Nombre: Francisco
+Apellido: Lettieri
+Legajo: 117511
+División: TN C312
