@@ -1,74 +1,44 @@
-[200~lsblk -i /dev/sdc -o NAME,MAJ:MIN,RM,SIZE,RO,TYPE,FSTYPE,MOUNTPOINTS~
-lsblk -i /dev/sdc -o NAME,MAJ:MIN,RM,SIZE,RO,TYPE,FSTYPE,MOUNTPOINTS
-lsblk -o NAME,MAJ:MIN,RM,SIZE,RO,TYPE,FSTYPE,MOUNTPOINTS
-lsblk -i /dev/sdc /dev/sdd -o NAME,MAJ:MIN,RM,SIZE,RO,TYPE,FSTYPE,MOUNTPOINTS
-lsblk -i /dev/sda /dev/sdc /dev/sdd -o NAME,MAJ:MIN,RM,SIZE,RO,TYPE,FSTYPE,MOUNTPOINTS
-history
-history -w
-ls -l
-tree
-cd ls -l
-sudo ls -l
-su ls alumno_1
-sudo ls alumno_1
-sudo ls -l alumno_1
-sudo tree alumno_1
-cd ..
-echo "su programadores" >> parcial1/puntoc.sh && echo "whoami >> Examenes-UTN/alumno_1/validar.txt" >> parcial1/puntoc.sh 
-cat parcial1/puntoc.sh 
-echo "su tester" >> parcial1/puntoc.sh && echo "whoami >> Examenes-UTN/alumno_2/validar.txt" >> parcial1/puntoc.sh 
-echo "su analistas" >> parcial1/puntoc.sh && echo "whoami >> Examenes-UTN/alumno_3/validar.txt" >> parcial1/puntoc.sh 
-echo "su disenadores" >> parcial1/puntoc.sh && echo "whoami >> Examenes-UTN/profesores/validar.txt" >> parcial1/puntoc.sh 
-cat parcial1/puntoc.sh 
-tree Examenes-UTN/
-sudo tree Examenes-UTN/
-sudo tree Examenes-UTN/ >> parcial1/puntoc.sh 
-cat parcial1/puntoc.sh 
-sudo mkdir -p Estructura_Asimetrica/{{clientes,correo}/cartas{1..50},correo/carteros{1..10}}
-tree Estructura_Asimetrica/
-echo "sudo mkdir -p Estructura_Asimetrica/{{clientes,correo}/cartas{1..50},correo/carteros{1..10}}" >> parcial1/puntod
-cat parcial1/puntod.sh 
-ls
-grep memtotal -i /proc/meminfo >> AySO-Parcial1-FranciscoLettieri/filtro_basico.txt
-cat AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-sudo dmidecode -t chassis >> AySO-Parcial1-FranciscoLettieri/filtro2.txt
-tail n-12 AySO-Parcial1-FranciscoLettieri/filtro2.txt >> AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-tail -n12 AySO-Parcial1-FranciscoLettieri/filtro2.txt >> AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-cat AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-grep memtotal -i /proc/meminfo > AySO-Parcial1-FranciscoLettieri/filtro_basico.txt
-cat AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-sudo dmidecode -t chassis >> AySO-Parcial1-FranciscoLettieri/filtro2.txt
-tail -n12 AySO-Parcial1-FranciscoLettieri/filtro2.txt >> AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-cat AySO-Parcial1-FranciscoLettieri/filtro_basico.txt 
-rm AySO-Parcial1-FranciscoLettieri/filtro2.txt 
-echo "grep memtotal -i /proc/meminfo > AySO-Parcial1-FranciscoLettieri/filtro_basico.txt" >> parcial1/puntoe.sh 
-echo "sudo dmidecode -t chassis >> AySO-Parcial1-FranciscoLettieri/filtro2.txt" >> parcial1/puntoe.sh 
-echo "tail -n12 AySO-Parcial1-FranciscoLettieri/filtro2.txt >> AySO-Parcial1-FranciscoLettieri/filtro_basico.txt"
-echo "tail -n12 AySO-Parcial1-FranciscoLettieri/filtro2.txt >> AySO-Parcial1-FranciscoLettieri/filtro_basico.txt" >> parcial1/puntoe.sh 
-echo "rm AySO-Parcial1-FranciscoLettieri/filtro2.txt" >> parcial1/puntoe.sh 
-echo "Agregue un paso intermedio para filtrar unos datos informativos del comando que traia el dmidecode -t chassis" >> parcial1/puntoe.sh 
-cat parcial1/puntoe.sh 
-echo -n "Mi IP Publica es: " > AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt | curl -s ifconfig.me -w "\n" >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt
-echo -n "Mi usuario es: " >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt | grep -i vagrant /etc/passwd | cut -d ":" -f1 >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt
-man echo
-echo -n "El Hash de mi Usuario es: " >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt | sudo grep -i vagrant /etc/shadow | cut -d ":" -f2 >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt
-cat AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt 
-echo "echo -n "Mi IP Publica es: " > AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt | curl -s ifconfig.me -w "\n" >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt" >> parcial1/puntof.sh 
-echo "echo -n "Mi usuario es: " >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt | grep -i vagrant /etc/passwd | cut -d ":" -f1 >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt" >> parcial1/puntof.sh 
-echo "echo -n "El Hash de mi Usuario es: " >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt | sudo grep -i vagrant /etc/shadow | cut -d ":" -f2 >> AySO-Parcial1-FranciscoLettieri/filtro_avanzado.txt" >> parcial1/puntof.sh 
-cat parcial1/puntof.sh 
+git clone https://github.com/FTLettieri/AySO-Parcial1-FranciscoLettieri.git
+sudo apt update && sudo apt install tree -y
 ll
-cat >> AySO-Parcial1-FranciscoLettieri/README.md << EOF
-# AySO-Parcial1-FranLettieri
-Nombre: Francisco
-Apellido: Lettieri
-Legajo: 117511
-División: 312
-EOF
-
-cat AySO-Parcial1-FranciscoLettieri/README.md 
+rm parcial1
+mkdir parcial1
+vim parcial1/puntoa.sh
+chmodr +x parcial1/puntoa.sh 
+chmod +x parcial1/puntoa.sh 
+./parcial1/puntoa.sh 
+ll
+ll Examenes-UTN/
+tree Examenes-UTN/
+vim parcial1/puntob.sh
+chmod +x parcial1/puntob.sh 
+./parcial1/puntob.sh 
+vim parcial1/puntoc.sh
+vim parcial1/puntob.sh
+chmod +x parcial1/puntoc.sh 
+./parcial1/puntoc.sh 
+ll Examenes-UTN/
+vim parcial1/puntoc.sh
+ll Examenes-UTN/
+vim parcial1/puntod.sh
+sudo passwd programadores
+sudo tester
+sudo passwd tester
+sudo passwd analistas
+sudo passwd disenadores
+cd Examenes-UTN/
+su programadores
+cd ..
+vim parcial1/puntod.sh
+chmod +x parcial1/puntod.sh 
+./parcial1/puntod.sh 
+vim parcial1/puntoe.sh
+chmod +x parcial1/puntoe.sh 
+./parcial1/puntoe.sh 
+vim parcial1/puntof.sh
+chmod +x parcial1/puntof.sh 
+./parcial1/puntof.sh 
 cat > AySO-Parcial1-FranciscoLettieri/README.md << EOF
-
 # AySO-Parcial1-FranciscoLettieri
 Nombre: Francisco
 Apellido: Lettieri

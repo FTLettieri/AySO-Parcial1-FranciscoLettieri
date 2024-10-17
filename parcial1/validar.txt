@@ -1,0 +1,45 @@
+Para crear cada archivo hice el cambio de usuario con SU y creo el archivo validar con
+whoami > alumno_1 > validar.txt (reemplazando la carpeta segun el usuario)
+
+vagrant@VMPruebas:~/Examenes-UTN$ su programadores
+Password:
+$ whoami > alumno_1/validar.txt
+$ su tester
+Password:
+$ whoami > alumno_2/validar.txt
+$ su analistas
+Password:
+$ whoami > alumno_3/validar.txt
+$ su disenadores
+Password:
+$ whoami > profesores/validar.txt
+
+
+Examenes-UTN/
+├── alumno_1
+│   ├── parcial_1
+│   ├── parcial_2
+│   ├── parcial_3
+│   └── validar.txt
+├── alumno_2
+│   ├── parcial_1
+│   ├── parcial_2
+│   ├── parcial_3
+│   └── validar.txt
+├── alumno_3
+│   ├── parcial_1
+│   ├── parcial_2
+│   ├── parcial_3
+│   └── validar.txt
+└── profesores
+    └── validar.txt
+
+13 directories, 4 files
+sudo cat Examenes-UTN/alumno_1/validar.txt
+programadores
+sudo cat Examenes-UTN/alumno_2/validar.txt
+tester
+sudo cat Examenes-UTN/alumno_3/validar.txt
+analistas
+sudo cat Examenes-UTN/profesores/validar.txt
+disenadores

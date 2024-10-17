@@ -1,4 +1,3 @@
-
 # AySO-Parcial1-FranciscoLettieri
 Nombre: Francisco
 Apellido: Lettieri
